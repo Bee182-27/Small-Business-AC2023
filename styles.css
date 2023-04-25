@@ -1,0 +1,268 @@
+head
+{
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    padding-right:0%;
+}
+
+body
+{
+    background-color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nextpage
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    border: 2px solid #fff;
+    color: black;
+    border-width: 0;
+    color: white;
+    background: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.container
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.OLM
+{
+    font-size: 24px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    padding-left: 8px;
+    cursor: pointer;
+    border-radius: 30px;
+    border-width: 0;
+    text-align: left;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.Off
+{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    display: inline-block;
+    border-width: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.OLO
+{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    display: inline-block;
+    clear: none;
+    text-align: right;
+    border-radius: 30px;
+    border-width: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.showcase1
+{
+    position: absolute;
+    /*padding-top: 4rem;*/
+    border: 2px solid #fff;
+    margin-top: 25px;
+    transition: transform .2s;
+
+}
+
+.showcase2
+{
+    position: absolute;
+    border: 2px solid #fff;
+    margin-top: 25px;
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.showcase3
+{
+    position: absolute;
+    border: 2px solid #fff;
+    margin-top: 50px;
+    bottom: -260px;
+    transition: transform .2s;
+}
+
+.showcase4
+{
+    position: absolute;
+    border: 2px solid #fff;
+    margin-top: 50px;
+    bottom: -260px;
+    left: 50%;
+    transition: transform .2s;
+
+}
+
+.container-ft
+{
+    background: #041d36;
+    display: block;
+}
+
+.footer
+{
+    position: absolute;
+    left: 0;
+    bottom: -350px;
+    width: 100%;
+    padding: -80px;
+    background: #041d36;
+    color: #efefef;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer div
+{
+    text-align: center;
+
+}
+
+.column2
+{
+    flex-grow: 1;
+}
+
+.footer div h3
+{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.column1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+form input
+{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form button
+{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.social-icons
+{
+    margin-bottom: -40px;
+    color: black;
+}
+
+.social-icons i
+{
+    font-size: 24px;
+    margin: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+form button 
+{
+    background: black;
+    color: white;
+}
+
+.block
+{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    border-width: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+/*Website action begins here*/
+.OLM:hover {
+    background: #041d36;
+    color: white;
+    border-radius: 30px;
+}
+.Off:hover {background: #041d36 ;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+.OLO:hover {
+    background:  #041d36;
+    border-radius: 30px;
+    color: white;
+}
+
+.block:hover
+{
+    background:  #041d36;
+    border-radius: 30px;
+    color: white;
+}
+
+.showcase1:hover
+{
+    transform: scale(1.1);
+}
+
+.showcase2:hover
+{
+    transform: scale(1.1);
+}
+
+.showcase3:hover
+{
+    transform: scale(1.1);
+}
+
+.showcase4:hover
+{
+    transform: scale(1.1);
+}
