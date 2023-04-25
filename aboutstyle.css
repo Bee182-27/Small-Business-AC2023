@@ -1,0 +1,63 @@
+html
+{
+    background-color: black;
+}
+
+.about 
+{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px
+}
+form input{
+    border-radius: 30px;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    border-width: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-bottom: -40px;
+}
+
+form input:hover
+{
+    background: #041d36;
+    color: white;
+    border-radius: 30px;
+}
+
+.textbox
+{
+    background-color: #041d36;
+    width: 60%;
+    height: fit-content;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.aboutimg1
+{
+    position: relative;
+    top: 40px;
+    bottom: -150px;
+}
+
+.aboutimg2
+{
+    position: relative;
+    top: -467px;
+    left: 35%;
+    display: inline-block;
+}
+
+.aboutimg3
+{
+    position: relative;
+    top: -467px;
+    left: 35%;
+    display: inline-block;
+}
